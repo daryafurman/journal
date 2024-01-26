@@ -1,4 +1,4 @@
-// import FavoriteButton from "../FavoriteButton/FavoriteButton.jsx";
+import FavoriteButton from "../FavoriteButton/FavoriteButton.jsx";
 
 import "./Entry.css";
 export default function Entry({ motto, notes, date }) {
@@ -11,7 +11,7 @@ export default function Entry({ motto, notes, date }) {
             <h2 className="entry__motto">
               <q>{motto}</q>
             </h2>
-            {/* <FavoriteButton /> */}
+            <FavoriteButton />
           </div>
           <p className="entry__notes">{notes}</p>
         </div>
